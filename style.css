@@ -1,10 +1,20 @@
 :root{
     --dark-color:#19283f;
     --green-color:#33d1cc;
+    --red-color:#ff3150;
+    --yellow-color:#ffc400;
 }
 body{
     font-family: ;
     height: 10000px;
+}
+.main-btn{
+background-color: var(--red-color);
+color:var(--yellow-color) ;
+padding: 0.5rem 1rem;
+}
+.main-btn:hover{
+    background: var(--yellow-color);
 }
 
 .navbar{
@@ -36,3 +46,12 @@ box-shadow: none;
 .navbar .navbar-toggler[aria-expanded="true"]{
     border-color: var(--green-color);
     }
+
+
+.landing{
+    background-color: var(--dark-color);
+    min-height:calc(100vh - 72px) ;
+     display: flex;
+    /*justify-content: center; 
+    text-align: center; */
+}
