@@ -85,6 +85,23 @@ height: 200px;
 .features .feat{
     color: var(--yellow-color);
 }
-
-
+.our-work{
+    background-color: var(--section-color);
+}
+.our-work ul .active{
+    background-color: var(--red-color);
+    color: yellow;
+}
+.our-work ul li{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.our-work ul li:not(.active):hover{
+    color: var(--red-color);
+}
+.our-work .box{
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
 
